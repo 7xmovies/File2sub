@@ -1,4 +1,4 @@
-#(©)t.me/CodeFlix_Bots
+#(©)t.me/movies7xltd
 
 
 
@@ -10,7 +10,7 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6353124673:AAHHq_bEVD_ry9QqcDIr1FehEgeR7wH_dvM")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 #Your API ID from my.telegram.org
 APP_ID = int(os.environ.get("APP_ID", "20919880"))
@@ -19,13 +19,13 @@ APP_ID = int(os.environ.get("APP_ID", "20919880"))
 API_HASH = os.environ.get("API_HASH", "0bb61198c9b5740cd2987d58f78be06d")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002116501788"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ")
 
 # NAMA OWNER
-OWNER = os.environ.get("OWNER", "Loki_odinso")
+OWNER = os.environ.get("OWNER", "")
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "6474779115"))
+OWNER_ID = int(os.environ.get("OWNER_ID", ""))
 
 #Port
 PORT = os.environ.get("PORT", "8030")
@@ -35,7 +35,7 @@ DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://7xmovieshub:uoc0ajFxBrQ0w
 DB_NAME = os.environ.get("DATABASE_NAME", "Movies7x")
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1001729492229"))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", ""))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
